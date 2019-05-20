@@ -1,0 +1,22 @@
+:root{
+  --mainblue    :   #2a2a72;
+  --lightblue   :   #009ffd;
+  --mainwhite   :   #f3f3f3;
+  --maindark     :   #232528;
+  --mainyellow  :   #ffa400;
+}
+body {
+    font-family: 'Source Code Pro', monospace !important;
+    background-color: var(--mainwhite) !important;
+    color: var(--maindark) !important;
+    line-height: 1.14 !important;
+    font-size: 100% !important;
+}
+p,h1,h2,h3,h4,h5,h6,a,img{
+    margin: 0px !important;
+    padding: 0px !important;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Righteous', cursive !important;
+    color: var(--mainyellow) !important;
+}
